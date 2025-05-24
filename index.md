@@ -1,3 +1,5 @@
+# LEOPARD: Learning Elements of Operative Printed Arms Recognition Dataset
+
 ## Abstract
 The rise of 3D-printed firearms poses a new security
 challenge, as their plastic composition and modular design make
