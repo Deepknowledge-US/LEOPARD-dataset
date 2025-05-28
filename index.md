@@ -26,7 +26,7 @@ This study presents a new dataset called 'LEOPARD-Dataset'. In this page, only t
 
 ### LEOPARD-Dataset 
 
-You can download the dataset [here](){:target="_blank" rel="noopener"}.
+You can download the dataset [here](https://uses0-my.sharepoint.com/:u:/r/personal/jbenjumea4_us_es/Documents/Dataset_piezas_06.zip?csf=1&web=1&e=piJ8RM){:target="_blank" rel="noopener"}.
 
 ## Terms of use
 This subset can be used for academic research free of charge, citing the paper as we explain below. If you seek to use the data for commercial purposes please or gain access to the full dataset [contact us](mailto:jaalvarez@us.es).
