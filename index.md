@@ -31,9 +31,26 @@ This sample dataset consists of 7,500 images generated procedurally using a synt
 
 You can download the dataset [here](https://uses0-my.sharepoint.com/:u:/r/personal/jbenjumea4_us_es/Documents/Dataset_piezas_06.zip?csf=1&web=1&e=piJ8RM){:target="_blank" rel="noopener"}.
 
-<!-- <p align="center">
-  <img src="docs/assets/images/ejemplos_test.jpeg" alt="Image">
-</p> -->
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="docs/assets/images/Dataset_muestra.png" alt="Image" width="400">
+    </td>
+    <td align="center">
+      <img src="docs/assets/images/piezas.png" alt="Image" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="docs/assets/images/Dataset_deteccion.png" alt="Image" width="400">
+    </td>
+    <td align="center">
+      <img src="docs/assets/images/Dataset_workflow.png" alt="Image" width="400">
+    </td>
+  </tr>
+</table>
+
+</p>
 
 ## Terms of use
 This subset can be used for academic research free of charge, citing the paper as we explain below. If you seek to use the data for commercial purposes please or gain access to the full dataset [contact us](mailto:jaalvarez@us.es).
