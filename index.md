@@ -22,11 +22,18 @@ community to support the detection of this type of artifacts using
 RGB images.
 
 ## Dataset
-This study presents a new dataset called 'LEOPARD-Dataset'. In this page, only the test set is available.
+This study presents a new dataset called 'LEOPARD-Dataset'.
 
 ### LEOPARD-Dataset 
 
+This sample dataset consists of 7,500 images generated procedurally using a synthetic data pipeline. The images have been automatically annotated following the class definitions introduced in the paper. All annotations are provided in YOLOv11 format. The generation process includes variations in geometry, material properties, and simulated printing artifacts to closely mimic real-world conditions. This subset is intended to support initial experimentation and validation tasks.
+
+
 You can download the dataset [here](https://uses0-my.sharepoint.com/:u:/r/personal/jbenjumea4_us_es/Documents/Dataset_piezas_06.zip?csf=1&web=1&e=piJ8RM){:target="_blank" rel="noopener"}.
+
+<!-- <p align="center">
+  <img src="docs/assets/images/ejemplos_test.jpeg" alt="Image">
+</p> -->
 
 ## Terms of use
 This subset can be used for academic research free of charge, citing the paper as we explain below. If you seek to use the data for commercial purposes please or gain access to the full dataset [contact us](mailto:jaalvarez@us.es).
