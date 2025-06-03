@@ -42,10 +42,10 @@ You can download the dataset [here](https://uses0-my.sharepoint.com/:u:/r/person
   </tr>
   <tr>
     <td align="center">
-      <img src="docs/assets/images/Dataset_deteccion.png" alt="Image" width="400">
+      <img src="docs/assets/images/deteccion.png" alt="Image" width="400">
     </td>
     <td align="center">
-      <img src="docs/assets/images/Dataset_workflow.png" alt="Image" width="400">
+      <img src="docs/assets/images/workflow.png" alt="Image" width="400">
     </td>
   </tr>
 </table>
