@@ -12,7 +12,9 @@ You can download the dataset [here](https://uses0-my.sharepoint.com/:u:/g/person
 
 <table align="center">
   <tr>
-    <img align="center" src="docs/assets/images/hyper3.png" alt="3D-printed firearm parts"  width="1200">
+    <td align="center">
+      <img align="center" src="docs/assets/images/hyper3.png" alt="3D-printed firearm parts"  width="1200">
+    </td>
   </tr>
   <tr>
     <td align="center">
