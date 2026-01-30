@@ -1,4 +1,4 @@
-# LEOPARD: Learning Elements of Operative Printed Arms Recognition Dataset
+# LEOPARD: Automated CAD-to-Synthetic Pipeline for 3D-Printed Firearm Detection in Civil Transit Security
 
 All the information can be found in the following link: [https://deepknowledge-us.github.io/LEOPARD-dataset/](https://deepknowledge-us.github.io/LEOPARD-dataset/).
 

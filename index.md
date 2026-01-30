@@ -1,35 +1,13 @@
-# LEOPARD: Learning Elements of Operative Printed Arms Recognition Dataset
+# LEOPARD: Automated CAD-to-Synthetic Pipeline for 3D-Printed Firearm Detection in Civil Transit Security
 
 ## Abstract
-The rise of 3D-printed firearms poses a new security
-challenge, as their plastic composition and modular design make
-them difficult to detect even using X-ray scanning systems. There
-are thousands of weapon designs freely available online, and
-constantly evolving traditional datasets for training detection
-models quickly become obsolete. This paper presents an auto-
-mated synthetic data generation pipeline that rapidly converts
-parts of 3D weapon models into highly realistic annotated
-training datasets. Our approach combines procedural variations
-in geometry and material properties with physics-based render-
-ing to create diverse training samples that account for real-
-world printing artifacts and scanning conditions. Experimental
-results demonstrate that object detection models trained on these
-synthetic data achieve ≥ 70% accuracy in identifying 3D-printed
-weapon components, offering a scalable solution for the rapid
-evolution of printable firearms. In addition to presenting a novel
-methodology, we released a valuable dataset to the scientific
-community to support the detection of this type of artifacts using
-RGB images.
+The proliferation of 3D-printed firearms poses a growing challenge for civil security, particularly in controlled public environments such as airports, train stations, and other transit hubs. These objects are often manufactured from polymer materials, exhibit high design variability, and are difficult to detect using conventional inspection systems. With over 20,000 weapon designs freely available online, traditional dataset creation methods cannot match the pace of design evolution. For this purpose, we present LEOPARD, designed to support civil security applications by converting CAD models of illicit firearm components into large-scale, photorealistic synthetic datasets. The pipeline incorporates procedural geometric variations, material imperfections, and physics-based rendering to realistically model 3D-printed objects as they may appear during security screening. Object detection models trained exclusively on our synthetic data achieve high performance on real 3D-printed components, with AP50 exceeding 83\% and precision reaching up to 91.9\%, demonstrating viable performance without requiring extensive real-world data collection. To encourage further research in automated inspection and public safety, we release LEOPARD-Zero, a dataset of 75,000 fully annotated synthetic images focused on the detection of illegal 3D-printed firearm components in civil transportation security contexts.
 
-## Dataset
-This study presents a new dataset called 'LEOPARD-Dataset'.
+## LEOPARD-Dataset 
 
-### LEOPARD-Dataset 
+This sample dataset consists of 1,500 images generated procedurally using a synthetic data pipeline. The images have been automatically annotated following the class definitions introduced in the paper. All annotations are provided in YOLO format. The generation process includes variations in geometry, material properties, and simulated printing artifacts to closely mimic real-world conditions. This subset is intended to support initial experimentation and validation tasks.
 
-This sample dataset consists of 7,500 images generated procedurally using a synthetic data pipeline. The images have been automatically annotated following the class definitions introduced in the paper. All annotations are provided in YOLOv11 format. The generation process includes variations in geometry, material properties, and simulated printing artifacts to closely mimic real-world conditions. This subset is intended to support initial experimentation and validation tasks.
-
-
-You can download the dataset [here](https://uses0-my.sharepoint.com/:u:/r/personal/jbenjumea4_us_es/Documents/Dataset_piezas_06.zip?csf=1&web=1&e=piJ8RM){:target="_blank" rel="noopener"}.
+You can download the dataset [here](https://uses0-my.sharepoint.com/:u:/g/personal/jaalvarez_us_es/IQCNIp6XMBeGQaU0zpt4omopAUsVKjVfyXOsk8Y28vJKimg?e=kHkHkA){:target="_blank" rel="noopener"}.
 
 <table align="center">
   <tr>
@@ -42,15 +20,13 @@ You can download the dataset [here](https://uses0-my.sharepoint.com/:u:/r/person
   </tr>
   <tr>
     <td align="center">
-      <img src="docs/assets/images/deteccion.png" alt="Image" width="400">
+      <img src="docs/assets/images/x_ray.png" alt="Image" width="400">
     </td>
     <td align="center">
       <img src="docs/assets/images/workflow.png" alt="Image" width="400">
     </td>
   </tr>
 </table>
-
-</p>
 
 ## Terms of use
 This subset can be used for academic research free of charge, citing the paper as we explain below. If you seek to use the data for commercial purposes please or gain access to the full dataset [contact us](mailto:jaalvarez@us.es).
