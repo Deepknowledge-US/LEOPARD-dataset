@@ -9,7 +9,11 @@ This sample dataset consists of 1,500 images generated procedurally using a synt
 
 You can download the dataset [here](https://uses0-my.sharepoint.com/:u:/g/personal/jaalvarez_us_es/IQCNIp6XMBeGQaU0zpt4omopAUsVKjVfyXOsk8Y28vJKimg?e=kHkHkA){:target="_blank" rel="noopener"}.
 
+
 <table align="center">
+  <tr>
+    <img align="center" src="docs/assets/images/hyper3.png" alt="3D-printed firearm parts"  width="1200"
+  </tr>
   <tr>
     <td align="center">
       <img src="docs/assets/images/Dataset_muestra.png" alt="Image" width="400">
