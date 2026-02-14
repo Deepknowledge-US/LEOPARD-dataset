@@ -1,7 +1,7 @@
 # LEOPARD: Automated CAD-to-Synthetic Pipeline for 3D-Printed Firearm Detection in Civil Transit Security
 
 ## Abstract
-The proliferation of 3D-printed firearms poses a growing challenge for civil security, particularly in controlled public environments such as airports, train stations, and other transit hubs. These objects are often manufactured from polymer materials, exhibit high design variability, and are difficult to detect using conventional inspection systems. With over 20,000 weapon designs freely available online, traditional dataset creation methods cannot match the pace of design evolution. To address this challenge, we present LEOPARD, a pipeline designed to support civil security applications by converting CAD models of illicit firearm components into large-scale, photorealistic synthetic datasets. The pipeline incorporates procedural geometric variations, material imperfections, and physics-based rendering to realistically model 3D-printed objects as they may appear during security screening. Using this pipeline, we introduce LEOPARD-Zero, a dataset of 75,000 fully annotated synthetic images focused on the detection of illegal 3D-printed firearm components in civil transportation security contexts. Object detection models trained exclusively on our synthetic data achieve high performance on real 3D-printed components, with AP50 exceeding 83\% and precision reaching up to 91.9\%, demonstrating viable performance without requiring extensive real-world data collection. To encourage further research in automated inspection and public safety, we release LEOPARD-Zero.
+The proliferation of 3D-printed firearms poses a growing challenge for civil security, particularly in controlled public environments such as airports, train stations, and other transit hubs. These objects are often manufactured from polymer materials, exhibit high design variability, and are difficult to detect using conventional inspection systems. With over 20,000 weapon designs freely available online, traditional dataset creation methods cannot match the pace of design evolution. For this purpose, we present LEOPARD, designed to support civil security applications by converting CAD models of illicit firearm components into large-scale, photorealistic synthetic datasets. The pipeline incorporates procedural geometric variations, material imperfections, and physics-based rendering to realistically model 3D-printed objects as they may appear during security screening. Object detection models trained exclusively on our synthetic data achieve high performance on real 3D-printed components, with AP50 exceeding 83% and precision reaching up to 91.9%, demonstrating viable performance without requiring extensive real-world data collection. To encourage further research in automated inspection and public safety, we release LEOPARD-Zero, a dataset of 75,000 fully annotated synthetic images focused on the detection of illegal 3D-printed firearm components in civil transportation security contexts.
 
 ## LEOPARD-Dataset 
 
@@ -9,7 +9,11 @@ The dataset consists of 75,000 images generated procedurally using a synthetic d
 
 You can download the dataset [here](https://uses0-my.sharepoint.com/:u:/g/personal/jaalvarez_us_es/IQAAkEIH5LHqRLgzF1oISNQMAUIYHExO4hm401JBW0QI4ak?e=2drERR){:target="_blank" rel="noopener"}.
 
+
 <table align="center">
+  <tr>
+      <img align="center" src="docs/assets/images/hyper3.png" alt="3D-printed firearm parts"  width="1200">
+  </tr>
   <tr>
     <td align="center">
       <img src="docs/assets/images/Dataset_muestra.png" alt="Image" width="400">
