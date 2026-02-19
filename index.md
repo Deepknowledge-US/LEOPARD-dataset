@@ -7,7 +7,7 @@ The proliferation of 3D-printed firearms poses a growing challenge for civil sec
 
 The dataset consists of 75,000 images generated procedurally using a synthetic data pipeline. The images have been automatically annotated following the class definitions introduced in the paper. All annotations are provided in YOLO format. The generation process includes variations in geometry, material properties, and simulated printing artifacts to closely mimic real-world conditions. The dataset contains negative samples to improve the model's discriminative power.
 
-You can download the dataset ( [here](111 GB) https://uses0-my.sharepoint.com/:u:/g/personal/jaalvarez_us_es/IQAAkEIH5LHqRLgzF1oISNQMAUIYHExO4hm401JBW0QI4ak?e=2drERR){:target="_blank" rel="noopener"}.
+You can download the dataset (111 GB) [here](https://uses0-my.sharepoint.com/:u:/g/personal/jaalvarez_us_es/IQAAkEIH5LHqRLgzF1oISNQMAUIYHExO4hm401JBW0QI4ak?e=2drERR){:target="_blank" rel="noopener"}.
 
 
 <table align="center">
