@@ -36,7 +36,22 @@ You can download the dataset (111 GB) [here](https://uses0-my.sharepoint.com/:u:
 This dataset can be used for academic research free of charge, citing the paper as we explain below. If you wish to use the data for commercial purposes or to gain access to the X-ray dataset mentioned in the paper, please [contact us](mailto:jaalvarez@us.es).
 
 ## Citation
-If you use our dataset, please kindly cite the following paper: coming soon.
+If you use our dataset, please kindly cite the following paper [https://doi.org/10.3390/app16105104](https://doi.org/10.3390/app16105104): 
+```
+@Article{BenjumeaLeopard,
+AUTHOR = {Benjumea-Bellott, Constantino and Torregrosa-Domínguez, Ángel and Ramos-González, Víctor and Soria-Morillo, Luis M. and Álvarez-García, Juan A.},
+TITLE = {LEOPARD: Automated CAD-to-Synthetic Pipeline for 3D-Printed Firearm Detection in Civil Transit Security},
+JOURNAL = {Applied Sciences},
+VOLUME = {16},
+YEAR = {2026},
+NUMBER = {10},
+ARTICLE-NUMBER = {5104},
+URL = {https://www.mdpi.com/2076-3417/16/10/5104},
+ISSN = {2076-3417},
+DOI = {10.3390/app16105104}
+}
+
+```
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
